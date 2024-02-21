@@ -44,12 +44,15 @@ h1 {
     height: 30px;
     font-size: 16px;
     text-align: center;
+    color: rgb(220, 249, 35);
     background-color: cornflowerblue;
     transform: rotate(45deg);
 }
 
 .special {
     font-size: 20px;
+    /* hslは(色相, 彩度, 輝度) */
+    color: hsl(180, 75%, 66%);
 }
 
 p,
