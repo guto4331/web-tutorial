@@ -1,0 +1,38 @@
+html {
+    font-size: 10px;
+    font-family: "Noto Sans JP", sans-serif;
+    background-color: darkseagreen;
+}
+
+body {
+    width: 600px;
+    /* (上下, 左右) */
+    margin: 0 auto;
+    background-color: chocolate;
+    /* 上, 右, 下, 左 */
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    color: darkseagreen;
+    font-size: 60px;
+    text-align: center;
+    /* 影の右移動, 縦移動, 半径, 色 */
+    text-shadow: 3px 3px 1px black;
+}
+
+p,
+li {
+    font-size: 16px;
+    line-height: 2.0;
+    letter-spacing: 1.5px;
+}
+
+img {
+    /* 画像をブロック要素として扱う */
+    display: block;
+    margin: 0 auto;
+}
