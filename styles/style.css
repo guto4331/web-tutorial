@@ -45,7 +45,7 @@ h1 {
     */
     background-image: linear-gradient(
         to right, rgba(65, 196, 137, 0.5), rgba(87, 70, 153, 0.5)
-        ), url("/images/modern-background.jpg");
+        ), url("../images/modern-background.jpg");
 }
 
 .box {
